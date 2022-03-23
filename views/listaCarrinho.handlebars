@@ -1,0 +1,41 @@
+<div class="container-fluid">
+    <ul class="list-group">
+        {{#each carrinho}}
+        <li class="list-group-item py-3 my-2">
+            <div class="row g-3 my-2">
+                <div class="col-4 col-md-3 col-lg-2">
+                    <img src="img/{{foto}}" class="img-thumbnail">
+                </div>
+                <div class="col-8 col-md-9 col-lg-7 col-xl-8 text-left align-self-center">
+                    <h5 class="fw-bold">{{nome}}</h5>
+                    <h5>Frutas deliciosas da melhor qualidade e vindas diretas do produtor</h5>
+                </div>
+                <div
+                    class="col-6 offset-6 col-sm-6 offset-sm6 col-md-4 offset-md-8 col-lg-3 offset-lg-0 col-xl-2 align-self-center mt-3">
+                    <div class="input-group">
+                        <input type="number" class="form-control text-center border-ark" value="{{quant}}">
+                        <button type="button" class="btn btn-outline-danger border-dark btn-sm">
+                           <a href="/deleteItemCarrinho/{{idItem}}" ><img src="img/delete.png" style="width: 20px" /></a>
+                        </button>
+                    </div>
+                    <div class="mt-2 text-end">
+                        <small class="text-secondary ">Valor Kg: R$ {{valorUnit}}</small><br>
+                        <span class="text-dark ">Valor total: R$ {{valorTotal}}</span>
+                    </div>
+                </div>
+            </div>
+        </li>
+        {{/each}}
+    </ul>
+    <ul>
+        <li class="list-group-item py-3">
+
+            <div class="text-end">
+                <h5 class="text-dark mb-3">Valor Total: R$ {{totalCompra}}</h5>
+                <a href="/cards" class="btn btn-primary btn-sm">Continuar Comprando</a>
+                <button class="btn btn-primary btn-sm">Fechar Comprar</button>
+            </div>
+
+        </li>
+    </ul>
+</div>

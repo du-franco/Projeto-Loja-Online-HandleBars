@@ -1,0 +1,22 @@
+{
+  "name": "projetohandle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemom ./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express-handlebars": "^6.0.1",
+    "mongodb": "^4.2.0",
+    "node-localstorage": "^2.2.1",
+    "ssh2-sftp-client": "^7.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

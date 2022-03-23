@@ -1,0 +1,152 @@
+* {
+    margin:0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f1f1;
+}
+header{
+    background-color: blueviolet;
+    text-align: center;
+    color:cornsilk;
+    margin-bottom: 10px;
+}
+main{
+    padding: 30px 50px;
+}
+
+.card{
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.linhaDeInput{
+    display:grid; /* para colocar um abaixo do outro*/
+    margin-bottom: 10px;
+}
+
+input{
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: 0; /* para tirar a bordar quando recebe o focus*/
+}
+
+#btn1, #btn2{
+    border:0;
+    padding: 10px;
+    outline: 0;
+    background-color: blueviolet;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all ease 0.5s;
+}
+
+#btn1:hover, #btn2:hover{
+    background-color: rgb(90, 28, 148);
+}
+.conteudo{
+    margin-top: 15px;
+}
+table{
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+table th{
+    background-color: rgb(214,214,214);
+    border: none;
+}
+
+table th, td{
+    padding: 1px 5px;
+    text-align: left;
+    
+}
+#foto{
+    border:1px solid gray;
+    width: 300px;
+    height: 240px;
+    float:right;
+    margin-left: 10px;
+}
+#imgFoto{
+    width: 270px;
+    height: 240px;
+    margin-left: 15px;
+}
+table td img{
+    width: 20px;
+    cursor: pointer;
+}
+
+.center{
+    text-align: center;
+}
+
+#banner{
+    display: flex;
+    margin:auto;
+    margin-bottom: 0;
+    width: 80%;
+    height: 250px;
+    border: 1px solid #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+#botoes{
+    display: flex;
+}
+#btnAnte, #btnProx{
+    line-height: 200px;
+    font-size: 30px;
+    color:rgba(0,0,0,.5);
+    font-weight: bold;
+    cursor: pointer;
+}
+#btnAnte{
+    float: left;
+}
+
+#btnProx{
+    float: right;
+}
+ul li{
+    display: inline;
+    margin-bottom: 0;
+}
+
+.titulo{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    height: 30px;
+    border-radius: 5px 5px 0px 0px;
+
+}
+.conteudoCard{    
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 0px 0px 5px 5px;
+    text-align: center;
+}
+
+
+.container-child{
+    margin-top: 20px;
+}
+
+.img-carrinho {
+    width: 45px;
+}
+
+#logo{
+    width: 70px;
+}
