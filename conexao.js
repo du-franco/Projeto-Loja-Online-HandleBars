@@ -1,5 +1,5 @@
 const mongodb = require('mongodb').MongoClient
-const url = 'mongodb+srv://edufranco:eed240818@cluster0.abs0g.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+const url = 'mongodb+srv://'
 
 const client = new mongodb(url)
 
