@@ -10,10 +10,10 @@ const produtosImage = new ProdutosImage()
 
 function run(){
     produtosImage.connect({
-        host: '192.168..60',
-        port: '22',
-        username:'tatiana',
-        password: 'yanchiacchio'
+        host: '000.000..00',
+        port: '00',
+        username:'',
+        password: ''
     }).then(() => {
         //se foi feita a conexão - o arquivo é enviado através da função fatPut
         //na hora de trazer o arquivo do servidor para dentro da aplicação, usa-se a função
